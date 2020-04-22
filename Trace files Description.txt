@@ -1,0 +1,12 @@
+Eucalyptus Workload Traces: 
+DS1-trace.txt to DS6-trace.txt: last column represents CPU demands
+
+Alibaba Traces: 
+container_meta.csv: Original file: 
+container_meta_updated.csv: Updated to scaledown: 
+container_meta-half.csv  (with alternate lines from complete trace file container-meta.csv for faster completion of prediction)
+container_meta-quater.csv  (with alternate lines from container_meta-half.csv for faster completion of prediction)
+
+Google Workload Traces:
+part-00001-of-00500.csv: Original file there are 500 such files from part00000-of-00500.csv to part00499-of-00500.csv): Column J, K, L represents demands for CPU cores, memory and disk space.
+part-00001-of-00500_updated.csv: Updated to scaleup values.

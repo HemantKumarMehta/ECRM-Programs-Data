@@ -1,0 +1,5 @@
+added column: 	G=f/100 	to remove 100
+		j round i  	round to avoid decimals
+		k i*4		Multiply by 4 to make it 0-100
+		l round k	Round to avoid decimals
+		M J*4		Multiply by 4 to make it 0-100
